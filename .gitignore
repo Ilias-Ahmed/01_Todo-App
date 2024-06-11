@@ -1,24 +1,59 @@
-# Logs
-logs
-*.log
+# Node.js dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# Testing
+/coverage
+
+# Build output
+/build
+
+# Cache
+.npm
+.cache
+/dist
+/out
+
+# Next.js
+.next
+out
+
+# Parcel-bundler cache (https://parceljs.org/)
+.cache
+/dist
+
+# Serverless directories
+/.serverless
+
+# Log files
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
-
-node_modules
-dist
-dist-ssr
-*.local
 
 # Editor directories and files
-.vscode/*
-!.vscode/extensions.json
 .idea
-.DS_Store
+.vscode
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
-*.sw?
+
+# macOS specific
+.DS_Store
+
+# Windows specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# dotenv environment variable files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Miscellaneous
+*.log
+*.lock
